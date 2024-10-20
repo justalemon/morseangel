@@ -2,3 +2,5 @@ matplotlib
 PyQt5
 scipy
 torch 
+pandas
+tqdm
