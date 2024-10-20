@@ -8,6 +8,10 @@ These notebooks can be run inside the [GPU-Jupyter](https://github.com/iot-salzb
 
 The GPU-Jupyter Docker image can be built from the repository mentioned above or ready made Docker images can be found in [Docker Hub](https://hub.docker.com/r/cschranz/gpu-jupyter)
 
+if you want to run it locally, install [PyTorch with CUDA](https://pytorch.org/get-started/locally/) manually before installing the dependencies.
+
+Please note that some Linux distros might need libportaudio2, this can be installed in Debian/Ubuntu and derivatives with `sudo apt-get install libportaudio2`. 
+
 ## The notebooks
 
 ### Morse keying
